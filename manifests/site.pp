@@ -21,3 +21,7 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
+
+node /^ssh/ {
+  include role::ssh_server
+}
